@@ -2,7 +2,7 @@
 
 This repository accompanies the paper:
 
-**Paul Christian Tesso Woafo, David Angeli, Alessandro Casavola, Francesco Tedesco**, *"A Novel Stochastic Model Predictive Control for Regenerative Suspension Systems"* (updated manuscript included in [`paper/`](paper/)).
+**Paul Christian Tesso Woafo, David Angeli, Alessandro Casavola, Francesco Tedesco**, *"A Novel Stochastic Model Predictive Control for Regenerative Suspension Systems"* (submitted to Interantional Journal of Robust and Nonlinear Control).
 
 > Code and models for **regenerative vehicle suspensions** controlled with a **stochastic Economic MPC (EMPC)** that explicitly maximizes harvested energy while meeting **ride comfort**, **road handling**, and **suspension stroke** constraints.
 
@@ -16,10 +16,9 @@ This repository accompanies the paper:
 See the figures and tables in the PDF under `paper/` for quantitative comparisons.
 
 ## Repository Layout
-- `paper/` - updated PDF of the manuscript.
 - Project scripts/models from the provided archive (see below).
 
-- `source-archive/` - original RAR package (kept for traceability). Extract it using GitHub Codespaces or your local tools.
+
 
 ## Requirements
 - MATLAB/Simulink (toolboxes as required by the included models/scripts).
@@ -33,18 +32,7 @@ See the figures and tables in the PDF under `paper/` for quantitative comparison
    ```
 3. Follow the instructions inside the experiment folders (MATLAB scripts/models).
 
-## Citation
-If you use this code, please cite the paper (fill in year/DOI when available):
 
-```bibtex
-@article{WoafoEtAl-EMPC-RegenerativeSuspensions,
-  author  = {Tesso Woafo, Paul Christian and Angeli, David and Casavola, Alessandro and Tedesco, Francesco},
-  title   = {A Novel Stochastic Model Predictive Control for Regenerative Suspension Systems},
-  journal = {<venue>},
-  year    = {YYYY},
-  doi     = {DOI-TBD}
-}
-```
 
 Alternatively, use `CITATION.cff`.
 
